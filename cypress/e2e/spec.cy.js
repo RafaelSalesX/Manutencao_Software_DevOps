@@ -14,5 +14,6 @@ describe('Atividade Cypress Novo Requerimento', () => {
   it('Testando Segundo Requerimento', function() {
     cy.NovoRequerimento2()
     cy.get(':nth-child(6) > :nth-child(3) > .badge').should('be.visible')
+    
   });
 })
